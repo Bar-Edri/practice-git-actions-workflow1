@@ -1,6 +1,7 @@
 name : Event Details
 on: issues
 jobs:
+    first-job:
     runs-on: ubuntu-latest
     steps:
         - name: Output Events
