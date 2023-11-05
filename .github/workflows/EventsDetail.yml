@@ -9,4 +9,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Output Events
-        run: echo "${{toJSON(github)}}"
+        run: echo "${{toJSON(github.events)}}"
